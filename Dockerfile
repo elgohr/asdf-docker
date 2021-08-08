@@ -1,4 +1,4 @@
-FROM ubuntu:21.04
+FROM ubuntu:21.10
 LABEL maintainer="larsgohr@posteo.de"
 
 RUN apt-get update && apt-get install -y \
