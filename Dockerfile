@@ -1,4 +1,4 @@
-FROM ubuntu:19.10
+FROM ubuntu:20.04
 LABEL maintainer="larsgohr@posteo.de"
 
 RUN apt-get update && apt-get install -y \
